@@ -17,7 +17,7 @@ const Me = () => {
 
                     </div>
                 </div>
-                <div className="w-1/2 lg:w-1/3 lg:p-8">
+                <div className="w-1/2 lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
                         <img src={profilePic} alt="profile" />
                     </div>
