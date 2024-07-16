@@ -23,3 +23,5 @@ const Technologies = () => {
 };
 
 export default Technologies;
+
+// hi
