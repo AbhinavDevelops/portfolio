@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "./components/navbar"
 import Me from "./components/me"
+import Technologies from './components/technologies'
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
         <Navbar />
 
         <Me />
+
+        <Technologies />
       </div>
 
 
