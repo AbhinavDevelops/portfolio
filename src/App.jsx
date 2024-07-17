@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "./components/navbar"
 import Me from "./components/me"
 import Technologies from './components/technologies'
+import Experience from './components/experience'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         <Me />
 
         <Technologies />
+
+        <Experience />
       </div>
 
 

@@ -11,42 +11,37 @@ const Technologies = () => {
             <div className="flex flex-wrap items-center justify-center gap-4 p-8">
 
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4 ">
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://www.python.org/" target="_blank">
                         <img src={python_logo} alt="Python logo" className="w-20 text-7xl" />
-                        <p className="text-xs text-center">Python</p>
                     </a>
 
                 </div>
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4 ">
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://huggingface.co/" target="_blank">
                         <img src={hf_logo} alt="HF Logo" className="w-20 text-7xl" />
-                        <p className="text-xs text-center">Hugging Face</p>
                     </a>
 
                 </div>
 
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4">
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://react.dev" target="_blank">
                         <RiReactjsLine className="text-7xl text-blue-500" />
                     </a>
-                    <p className="text-lg text-center">React</p>
                 </div>
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4 ">
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://llama.meta.com/llama3/" target="_blank">
                         <img src={llama_logo} alt="Llama logo" className="w-20 text-3xl" />
-                        <p className="text-xs text-center">Llama3</p>
                     </a>
 
                 </div>
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4 ">
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://llama.meta.com/llama3/" target="_blank">
                         <BiLogoPostgresql className="text-7xl text-blue-500" />
-                        <p className="text-xs text-center">Llama3</p>
                     </a>
 
                 </div>
