@@ -41,20 +41,20 @@ export const EXPERIENCES = [
         role: "Data Engineer",
         company: "Fortescue Metals Group",
         description: "Developed a machine learning model to predict pulley failures with 93% accuracy using Python Scikit. Conducted data preprocessing and feature engineering to optimize model performance.",
-        technologies: ["Python", "Scikit", "Machine Learning", "Data Engineering"],
+        technologies: ["Python", "Scikit", "Matplotlib"],
     },
     {
         year: "Jan 2021 - Jan 2023",
         role: "Head Teacher",
         company: "Code Camp",
         description: "Taught coding fundamentals to students, fostering problem-solving and logical thinking. Managed classes of 15-20 students, tracking progress and providing actionable feedback.",
-        technologies: ["JavaScript", "Educational Technology"],
+        technologies: ["JavaScript", "Python"],
     },
     {
         year: "May 2024 - Present",
         role: "Prompt Engineer, Data Annotation",
         company: "DataAnnotation.tech",
         description: "Specialized in enhancing the performance of AI models by optimizing code and comparing different model structures. Contributed to AI technology advancement in a remote work environment.",
-        technologies: ["AI Model Improvement", "Code Optimization"],
+        technologies: ["Python", "React"],
     }
 ];

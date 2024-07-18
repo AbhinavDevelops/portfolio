@@ -3,6 +3,8 @@ import hf_logo from '../assets/hf-logo.png';
 import python_logo from "../assets/python.png"
 import llama_logo from "../assets/llama.png"
 import { BiLogoPostgresql } from 'react-icons/bi';
+import { SiNumpy, SiPandas, SiScikitlearn } from 'react-icons/si';
+
 
 const Technologies = () => {
     return (
@@ -13,7 +15,7 @@ const Technologies = () => {
 
                 <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://www.python.org/" target="_blank">
-                        <img src={python_logo} alt="Python logo" className="w-20 text-7xl" />
+                        <img src={python_logo} alt="Python logo" className="w-20 text-7xl " />
                     </a>
 
                 </div>
@@ -40,11 +42,31 @@ const Technologies = () => {
                 </div>
 
                 <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
-                    <a href="https://llama.meta.com/llama3/" target="_blank">
+                    <a href="https://www.postgresql.org/" target="_blank">
                         <BiLogoPostgresql className="text-7xl text-blue-500" />
                     </a>
 
                 </div>
+
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
+                    <a href="https://numpy.org/" target="_blank">
+                        <SiNumpy className="text-7xl text-blue-500" />
+                    </a>
+                </div>
+
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
+                    <a href="https://pandas.pydata.org/" target="_blank">
+                        <SiPandas className="text-7xl text-blue-500" />
+                    </a>
+                </div>
+
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
+                    <a href="https://scikit-learn.org/" target="_blank">
+                        <SiScikitlearn className="text-7xl text-blue-500" />
+                    </a>
+                </div>
+
+
 
 
             </div>
