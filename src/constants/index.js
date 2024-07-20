@@ -1,5 +1,6 @@
 import siren_script from "../assets/siren_script.png";
 import forex from "../assets/Forex.png";
+import peckish from "../assets/peckish.png";
 
 export const ABOUT = `Hello! I’m Abhinav, a Perth based software engineer with a dual degree 
 in Software Engineering and Data Science from the University of Western Australia. I excel in Python, R, and have a 
@@ -20,13 +21,21 @@ export const PROJECTS = [
         description: `A machine learning and UI/UX project revolved around transcribing and summarizing 
         emergency calls for first responders. Achieved 93% accuracy on detecting critical information. Click on the image for the live demo`,
         technologies: ["Python", "Machine Learning", "UI/UX Design"],
-        link: "https://peckish-ai.vercel.app/",
+
     },
     {
         title: "Facial ID and Document Scanner",
         image: forex,
         description: "A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition. Used Python in the backend and integrated with the client’s frontend.",
         technologies: ["Python", "Facial Recognition", "Document Scanning"],
+    },
+
+    {
+        title: "Peckish",
+        image: peckish,
+        description: "A food recommendation app that uses machine learning to suggest recipes based on user preferences. Developed the backend with Flask and the frontend with React. Click on image for live demo",
+        technologies: ["Python", "React", "Flask", "SupaBase"],
+        link: "https://peckish-ai.vercel.app/",
     }
 
 ];
