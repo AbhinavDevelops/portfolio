@@ -19,7 +19,7 @@ export const PROJECTS = [
         title: "SirenScript",
         image: siren_script,
         description: `A machine learning and UI/UX project revolved around transcribing and summarizing 
-        emergency calls for first responders. Achieved 93% accuracy on detecting critical information. Click on the image for the live demo`,
+        emergency calls for first responders. Achieved 93% accuracy on detecting critical information.`,
         technologies: ["Python", "Machine Learning", "UI/UX Design"],
 
     },
