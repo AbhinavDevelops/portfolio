@@ -17,8 +17,10 @@ export const PROJECTS = [
     {
         title: "SirenScript",
         image: siren_script,
-        description: "A machine learning and UI/UX project revolved around transcribing and summarizing emergency calls for first responders. Achieved 93% accuracy on detecting critical information.",
+        description: `A machine learning and UI/UX project revolved around transcribing and summarizing 
+        emergency calls for first responders. Achieved 93% accuracy on detecting critical information. Click on the image for the live demo`,
         technologies: ["Python", "Machine Learning", "UI/UX Design"],
+        link: "https://peckish-ai.vercel.app/",
     },
     {
         title: "Facial ID and Document Scanner",
@@ -35,14 +37,14 @@ export const EXPERIENCES = [
         role: "Software Data Analyst",
         company: "Gold Fields",
         description: "Developed and implemented a sophisticated flight schedule modeling system using tools such as NumPy, Pandas, and Matplotlib. Achieved a 33% reduction in labor-hours lost through optimized flight selection.",
-        technologies: ["Python", "NumPy", "Pandas", "Matplotlib"],
+        technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Simulations"],
     },
     {
         year: "Nov 2022 - Mar 2023",
         role: "Data Engineer",
         company: "Fortescue Metals Group",
         description: "Developed a machine learning model to predict pulley failures with 93% accuracy using Python Scikit. Conducted data preprocessing and feature engineering to optimize model performance.",
-        technologies: ["Python", "Scikit", "Matplotlib"],
+        technologies: ["Python", "Scikit", "Matplotlib", "SQL"],
     },
     {
         year: "Jan 2021 - Jan 2023",
@@ -56,6 +58,6 @@ export const EXPERIENCES = [
         role: "Prompt Engineer, Data Annotation",
         company: "DataAnnotation.tech",
         description: "Specialized in enhancing the performance of AI models by optimizing code and comparing different model structures. Contributed to AI technology advancement in a remote work environment.",
-        technologies: ["Python", "React"],
+        technologies: ["Python", "React", "C++"],
     }
 ];
