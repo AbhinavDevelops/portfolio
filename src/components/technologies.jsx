@@ -48,7 +48,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
+                {/* <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://numpy.org/" target="_blank">
                         <SiNumpy className="text-7xl text-blue-500" />
                     </a>
@@ -64,7 +64,7 @@ const Technologies = () => {
                     <a href="https://scikit-learn.org/" target="_blank">
                         <SiScikitlearn className="text-7xl text-blue-500" />
                     </a>
-                </div>
+                </div> */}
 
 
 

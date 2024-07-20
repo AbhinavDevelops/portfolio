@@ -9,6 +9,7 @@ and Facial ID and Document Scanner showcase my commitment to leveraging technolo
 free to reach out if you’re interested in a collaboration or just want to connect!
 
 `
+export const HERO = `Studying software engineering by chance but making it my passion by choice. I am a software engineer who has worked on a variety of projects, from machine learning to UI/UX design. I am passionate about using technology to solve real-world problems and am always looking for new opportunities to learn and grow.`
 
 
 export const PROJECTS = [

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ABOUT } from '../constants'
+import { HERO } from '../constants'
 import profilePic from '../assets/abhinav.png'
 
 const Me = () => {
@@ -12,7 +12,7 @@ const Me = () => {
                         <span className="bg-gradient-to-r from-pink-300 via-slate-400 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                             Software Engineer</span>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                            {ABOUT}
+                            {HERO}
                         </p>
 
                     </div>
