@@ -3,7 +3,8 @@ import hf_logo from '../assets/hf-logo.png';
 import python_logo from "../assets/python.png"
 import llama_logo from "../assets/llama.png"
 import { BiLogoPostgresql } from 'react-icons/bi';
-import { SiNumpy, SiPandas, SiScikitlearn } from 'react-icons/si';
+import { FaRProject } from 'react-icons/fa';
+//import { SiNumpy, SiPandas, SiScikitlearn } from 'react-icons/si';
 
 
 const Technologies = () => {
@@ -47,6 +48,14 @@ const Technologies = () => {
                     </a>
 
                 </div>
+
+
+                <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
+                    <a href="https://www.r-project.org/" target="_blank">
+                        <FaRProject className="text-7xl text-blue-500" />
+                    </a>
+                </div>
+
 
                 {/* <div className="rounded-2xl border-4 border-purple-800 p-4 w-28 h-28">
                     <a href="https://numpy.org/" target="_blank">
