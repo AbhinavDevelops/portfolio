@@ -24,6 +24,8 @@ const App = () => {
         <Experience />
 
         <Projects />
+
+
       </div>
 
 
