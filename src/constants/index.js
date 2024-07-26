@@ -33,9 +33,9 @@ export const PROJECTS = [
     },
 
     {
-        title: "Red Following Boat",
+        title: "Red Marker Guided Autonomous Boat",
         image: red_boat,
-        description: "A hardware and software project that involved developing a boat that could follow a red object. Used OpenCV for object detection a camera module and an ardunio for the hardware.",
+        description: "A hardware, software and machine learning project that involved developing a boat that could identify red in a live video stream and control its propellors to follow the red. Used OpenCV for object detection a camera module and an ardunio for the hardware control.",
         technologies: ["C", "OpenCV", "Arduino", "Hardware Development"],
     },
 
