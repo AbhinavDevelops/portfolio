@@ -16,6 +16,13 @@ export const HERO = `Studying software engineering by chance but making it my pa
 export const PROJECTS = [
 
     {
+        title: "Peckish",
+        image: peckish,
+        description: "A food recommendation app that uses machine learning to suggest recipes based on user preferences. Developed the backend with Flask and the frontend with React. Click on image for live demo",
+        technologies: ["Python", "React", "Flask", "SupaBase"],
+        link: "https://peckish-ai.vercel.app/",
+    },
+    {
         title: "SirenScript",
         image: siren_script,
         description: `A machine learning and UI/UX project revolved around transcribing and summarizing 
@@ -29,14 +36,6 @@ export const PROJECTS = [
         description: "A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition. Used Python in the backend and integrated with the client’s frontend.",
         technologies: ["Python", "Facial Recognition", "Document Scanning"],
     },
-
-    {
-        title: "Peckish",
-        image: peckish,
-        description: "A food recommendation app that uses machine learning to suggest recipes based on user preferences. Developed the backend with Flask and the frontend with React. Click on image for live demo",
-        technologies: ["Python", "React", "Flask", "SupaBase"],
-        link: "https://peckish-ai.vercel.app/",
-    }
 
 ];
 

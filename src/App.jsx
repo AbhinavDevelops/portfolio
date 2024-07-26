@@ -4,6 +4,8 @@ import Me from "./components/me"
 import Technologies from './components/technologies'
 import Experience from './components/experience'
 import Projects from './components/projects'
+import ChatbotA from './components/chat_a'
+import ChatbotB from './components/chat_b'
 
 const App = () => {
   return (
@@ -21,10 +23,11 @@ const App = () => {
 
         <Technologies />
 
-        <Experience />
-
         <Projects />
 
+        <Experience />
+
+        <ChatbotB />
 
       </div>
 
