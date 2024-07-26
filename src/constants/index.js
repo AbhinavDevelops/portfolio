@@ -42,8 +42,9 @@ export const PROJECTS = [
     {
         title: "Facial ID and Document Scanner",
         image: forex,
-        description: "A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition. Used Python in the backend and integrated with the client’s frontend.",
+        description: "A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition. Used Python in the backend and integrated with the client’s frontend. Click on image to see video presentation",
         technologies: ["Python", "Facial Recognition", "Document Scanning"],
+        link: "https://youtu.be/Huyc_mT1v6Q?t=565"
     },
 
 ];
