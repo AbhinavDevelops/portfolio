@@ -44,7 +44,7 @@ const Chatbot = () => {
         <div className="rounded-md p-4 shadow-md my-4">
             <h1 className="text-center text-4xl text-white mb-6">Ask<span className="text-purple-500">Abhinav</span></h1>
             <div className="bg-gray-200 rounded-md p-6 shadow-md mt-4" style={{ color: textColor, fontSize: "1.2em", outline: "2px solid #9D50FF" }}>
-                <h3 className="text-xl font-bold mb-2">Kiosk</h3>
+                <h3 className="text-xl font-bold mb-2">Oracle</h3>
                 <p className="text-gray-600 italic pb-4">Ask me anything about him.</p>
                 <form className="flex items-center" onSubmit={handleSubmit}>
                     <input

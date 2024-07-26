@@ -1,6 +1,7 @@
 import siren_script from "../assets/siren_script.png";
 import forex from "../assets/Forex.png";
 import peckish from "../assets/peckish.png";
+import red_boat from "../assets/red_boat.gif";
 
 export const ABOUT = `Hello! I’m Abhinav, a Perth based software engineer with a dual degree 
 in Software Engineering and Data Science from the University of Western Australia. I excel in Python, R, and have a 
@@ -30,6 +31,14 @@ export const PROJECTS = [
         technologies: ["Python", "Machine Learning", "UI/UX Design"],
 
     },
+
+    {
+        title: "Red Following Boat",
+        image: red_boat,
+        description: "A hardware and software project that involved developing a boat that could follow a red object. Used OpenCV for object detection a camera module and an ardunio for the hardware.",
+        technologies: ["C", "OpenCV", "Arduino", "Hardware Development"],
+    },
+
     {
         title: "Facial ID and Document Scanner",
         image: forex,
