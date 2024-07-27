@@ -26,7 +26,7 @@ const App = () => {
 
         <Experience />
 
-        {/* <Chatbot /> */}
+        <Chatbot />
 
       </div>
 
