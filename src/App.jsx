@@ -5,6 +5,7 @@ import Technologies from './components/technologies'
 import Experience from './components/experience'
 import Projects from './components/projects'
 import Chatbot from './components/chat_b'
+import ContactForm from './components/contact_form'
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
         <Experience />
 
         <Chatbot />
+        {/* 
+        <ContactForm /> */}
 
       </div>
 
