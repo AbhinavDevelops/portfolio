@@ -28,8 +28,8 @@ const App = () => {
         <Experience />
 
         <Chatbot />
-        {/* 
-        <ContactForm /> */}
+
+        <ContactForm />
 
       </div>
 

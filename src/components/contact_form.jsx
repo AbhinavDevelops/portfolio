@@ -1,23 +1,34 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    const form = useRef();
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState("");
 
-    const handleSubmit = async () => {
+    const sendEmail = (e) => {
+        e.preventDefault();
         setError(""); // Clear any existing error message
 
-        try {
-            // Replace 'http://localhost:3000/api/contact' with your actual backend API endpoint
-            await axios.post("http://localhost:3000/api/contact", { name, email, message });
-            setSubmitted(true); // Form was successfully submitted
-        } catch (error) {
-            setError("There was an error sending the message. Please try again later.");
-        }
+        const templateParams = {
+            to_name: 'Abhinav', // Replace with actual recipient name
+            from_name: form.current.user_name.value,
+            from_email: form.current.user_email.value,
+            message: form.current.message.value,
+        };
+
+        emailjs
+            .send('service_gqxq8x4', 'template_s6tguug', templateParams, import.meta.env.VITE_EMAILJS_KEY)
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    setSubmitted(true); // Form was successfully submitted
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                    setError("There was an error sending the message. Please try again later.");
+                }
+            );
     };
 
     return (
@@ -27,17 +38,16 @@ const ContactForm = () => {
                 {submitted ? (
                     <div className="text-green-600 text-center mb-4">Thank you for contacting me!</div>
                 ) : (
-                    <form onSubmit={(e) => { e.preventDefault(); handleSubmit(); }}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium text-white">
                                 Name
                             </label>
                             <input
                                 type="text"
+                                name="user_name"
                                 id="name"
                                 className="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white text-gray-900"
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
                                 placeholder="Your name"
                                 required
                             />
@@ -49,10 +59,9 @@ const ContactForm = () => {
                             </label>
                             <input
                                 type="email"
+                                name="user_email"
                                 id="email"
                                 className="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white text-gray-900"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
                                 placeholder="your_email@example.com"
                                 required
                             />
@@ -63,11 +72,10 @@ const ContactForm = () => {
                                 Message
                             </label>
                             <textarea
+                                name="message"
                                 id="message"
                                 rows="4"
                                 className="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white text-gray-900"
-                                value={message}
-                                onChange={(e) => setMessage(e.target.value)}
                                 placeholder="Your message..."
                                 required
                             ></textarea>
