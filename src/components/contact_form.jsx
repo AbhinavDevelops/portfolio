@@ -18,7 +18,7 @@ const ContactForm = () => {
         };
 
         emailjs
-            .send('service_gqxq8x4', 'template_s6tguug', templateParams, import.meta.env.VITE_EMAILJS_KEY)
+            .send('service_gqxq8x4', 'template_s6tguug', templateParams, "Es6Wh3OYZyD7YvQME")
             .then(
                 () => {
                     console.log('SUCCESS!');
