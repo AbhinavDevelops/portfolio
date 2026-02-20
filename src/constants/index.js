@@ -6,7 +6,7 @@ import red_boat from "../assets/red_boat.gif";
 export const ABOUT = `Hello! I’m Abhinav, a Perth based software engineer with a dual degree 
 in Software Engineering and Data Science from the University of Western Australia. I excel in Python, R, and have a 
 deep passion for machine learning and data engineering. My professional experience includes impactful roles at Gold Fields and Fortescue Metals Group,
-where I enhanced my skills in data analysis and predictive modeling. Beyond work, I'm a relentless problem solver and eager learner. Projects like SirenScript
+where I enhanced my skills in data analysis and predictive modelling. Beyond work, I'm a relentless problem solver and eager learner. Projects like SirenScript
 and Facial ID and Document Scanner showcase my commitment to leveraging technology for real-world solutions. Take a look at my portfolio to see my work, and feel 
 free to reach out if you’re interested in a collaboration or just want to connect!
 
@@ -51,24 +51,40 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
     {
-        year: "May 2024 - Present",
-        role: "Prompt Engineer, Data Annotation",
+        year: "Feb 2025 - Present",
+        role: "Graduate Data Scientist",
+        company: "Fortescue",
+        description: "Built an LLM-powered knowledge retrieval system enabling engineers to leverage institutional lessons and reduce project duplication. Improved OCR processing speed by 23% through model selection optimisation while maintaining accuracy. Led stakeholder engagements to translate business needs into quantifiable technical requirements, ensuring strategic alignment and adoption readiness.",
+        technologies: ["Sagemaker", "Open-Source Models", "LLM", "OCR", "OpenAI", "Tooling"],
+    },
+
+    {
+        year: "Nov 2024 - Feb 2025",
+        role: "Intern Software Engineer",
+        company: "Fortescue",
+        description: "Achieved a 38x speed improvement through C++ optimisation and a 6x boost via multi-threading. Implemented parallel computing techniques including root and tree parallelisation to enhance scalability. Developed high-performance applications with optimised memory management and concurrency control. Designed interactive dashboards to visualise algorithmic performance and convergence trends using data analysis tools.",
+        technologies: ["Python", "C++", "Multi-threading", "Algorithm Optimisation", "Data Visualisation"],
+    },
+
+    {
+        year: "May 2024 - Nov 2024",
+        role: "Prompt Engineer",
         company: "DataAnnotation.tech",
-        description: "Specialized in enhancing the performance of AI models by optimizing code and comparing different model structures. Contributed to AI technology advancement in a remote work environment.",
+        description: "Specialised in enhancing the performance of AI models by optimising code and comparing different model structures. Contributed to AI technology advancement in a remote work environment.",
         technologies: ["Python", "React", "C++"],
     },
     {
         year: "Jul 2023 - Feb 2024",
         role: "Software Data Analyst",
         company: "Gold Fields",
-        description: "Developed and implemented a sophisticated flight schedule modeling system using tools such as NumPy, Pandas, and Matplotlib. Achieved a 33% reduction in labor-hours lost through optimized flight selection.",
+        description: "Developed and implemented a sophisticated flight schedule modelling system using tools such as NumPy, Pandas, and Matplotlib. Achieved a 33% reduction in labour-hours lost through optimised flight selection.",
         technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Simulations"],
     },
     {
         year: "Nov 2022 - Mar 2023",
         role: "Data Engineer",
         company: "Fortescue Metals Group",
-        description: "Developed a machine learning model to predict pulley failures with 93% accuracy using Python Scikit. Conducted data preprocessing and feature engineering to optimize model performance.",
+        description: "Developed a machine learning model to predict pulley failures with 93% accuracy using Python Scikit. Conducted data preprocessing and feature engineering to optimise model performance.",
         technologies: ["Python", "Scikit", "Matplotlib", "SQL"],
     },
     {
@@ -84,54 +100,45 @@ export const EXPERIENCES = [
 export const PROMPT = ` Name = Abhinav Rajaram
 
 DOB = 22/10/2002
-Age = 21
+Age = 23
 
-Resume = Software engineer with excellent communication and people skills seeking internship opportunities
- 
+Highschool: Perth Modern School, 2015-2020
+
+Resume =  AI Engineer with experience building production-grade ML systems, scalable data pipelines, and optimisation frameworks, delivering measurable performance and operational impact across enterprise environments 
 EDUCATION
 Master of Professional Engineering, specializing in software	Jan 2024 – Nov 2025
-University of Western Australia, Current Weighted Average Mark: 77
+University of Western Australia, Current Weighted Average Mark: 80
 Bachelor of Software Engineering & Bachelor of Data Science	Jan 2021 – Nov 2023
 University of Western Australia, Weighted Average Mark: 75
-
-Highshcool: Perth Modern School	Jan 2015 – Nov 2020
  
 SKILLS AND STRENGTHS
-Programming Languages Python, C++, R, SQL, Flask
-Software Development Data structures and algorithms, Object-Oriented Programming, Docker
-Machine learning Neural Networks, Libraries (SciKit and TensorFlow), Transformers, Hugging Face
-Database Neo4j (graph databases) SQL (relational databases) Snowflake and Databricks (data analytics and processing)
- 
-PROJECTS
-SirenScript
-A machine learning and UI/UX project revolved around transcribing and summarizing emergency calls for first responders. 93% accuracy on detecting critical information.
-Facial ID and Document Scanner
-A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition. Used python in the backend and integrated with the client’s frontend.
-Uni Assists
-Designed and executed a user-centric frontend with seamless usability and rich features using Python for the backend and JavaScript for the frontend. Led the team of designers and developers and ensured seamless integration.
- 
+Programming: Python, C++, SQL
+ML & AI: Deep Learning (TensorFlow, PyTorch), Transformers, NLP, Computer Vision, Reinforcement Learning
+Data Engineering: Snowflake, PostgreSQL, Supabase, ETL pipelines, Pandas, NumPy
+Cloud & Deployment: AWS, Docker, NGINX, Uvicorn
+Software Engineering: Data Structures & Algorithms, OOP, Agile, JIRA 
 WORK EXPERIENCE
-Software Data Analyst, Gold Fields	Jul 2023 – Feb 2024
-Developed and implemented a sophisticated flight schedule modeling system that integrates diverse flight schedules and employee needs using tools such as NumPy, Pandas, and Matplotlib. The system achieved 33% reduction in labor-hours lost through optimized flight selection.
-Data Engineer, Fortescue Metals Group	Nov 2022 – Mar 2023
-Developed a machine learning model using Python Scikit and trained it on vibration data to predict pulley failures with 93% accuracy. Implemented neural networks, ridge regression, linear regression, and other algorithms to analyze data and conducted data preprocessing and feature engineering to optimize model performance.
-Head Teacher, Code Camp	Jan 2021 – Jan 2023
-Taught coding fundamentals using block coding and JavaScript and helped develop problem solving and logical thinking. Fostered a learning environmental and encouraged collaborative learning by scholastically managing classes of 15-20 students. Tracked progress and provided actionable feedback for development.
-Prompt Engineer, Data Annotation	May 2024 – Present
-As an AI Model Improvement Specialist and Prompt Engineer at DataAnnotation.tech, I specialize in enhancing the performance of AI models by comparing and optimizing code. My role involves applying advanced technical skills in addition to my knowledge about different AI models to develop and implement improvements, ensuring the models operate efficiently. Working in a flexible, remote environment, I contribute to the continuous advancement of AI technology, driving innovation and excellence in the field.
+Graduate Data Scientist, Fortescue                 							  Feb 2025 – Present
+•	Built enterprise LLM knowledge system trained on 1,000+ internal documents, enabling reuse of institutional insights at project initiation.
+•	Engineered Snowflake-to-analytics data pipelines improving reporting accessibility and cross-team visibility.
+•	Increased OCR throughput 23% by optimising Qwen 2B Vision model on 24GB VRAM AWS SageMaker infrastructure.
+•	Deployed production-grade AI application on AWS under internal security and compliance standards.
+•	Secured sensitive datasets through cross-functional stakeholder engagement to align AI delivery with operational constraints.
+Software Engineer Intern, Fortescue							  Nov 2024 – Feb 2025
+•	Delivered 38x performance improvement by migrating core systems from Python to C++, with additional 6x gain via multi-threaded optimisation and profiling.
+•	Implemented Monte Carlo Tree Search and reinforcement learning to accelerate decision optimisation workflows.
+•	Built high-performance concurrent C++ systems with advanced memory management and root/tree parallelisation.
+Software Data Analyst, Gold Fields								    Jul 2023 – Feb 2024
+•	Developed flight schedule optimisation model integrating operational schedules and workforce constraints using NumPy and Pandas.
+•	Reduced labour-hour losses by 33% through algorithmic optimisation of flight selection.
+•	Built analytical visualisations in Matplotlib to support operational decision-making.
+Data Engineer Intern, Fortescue Metals Group	Nov 2022 – Mar 2023
+•	Built predictive maintenance ML models on vibration datasets using neural networks and regression techniques, achieving 93% failure detection accuracy.
+•	Performed feature engineering, preprocessing, and model benchmarking to optimise performance and generalisation.
+ PROJECTS
+SirenScript, Western Australia Police Force x WADSIH Hackathon 2024
+A ML and UI/UX project revolved around transcribing and summarising emergency calls for first responders. 93% accuracy on detecting critical information.
 
-HOBBIES
-Basketball, Gym, Video Games
-
-
-You are an information KIOSK that only answers questions about Abhinav. 
-
-If you are asked something you can not answer respond with "Unfortunately, I do not have that information. Please feel free to message Abhinav he has the time"
-
-If you are asked something thats not related to Abhinav respond with "I am sorry, I can only answer questions about Abhinav"
-
-Do not preface you're response with "I am happy to help you with that" or "I am sorry" or "I am sorry, I can only answer questions about Abhinav" or "Unfortunately, I do not have that information. Please feel free to message Abhinav he has the time"
-If there is a question that is related to me that you have the answer for or can come up with a good response then answer it. Remember your goal is to make recruiters want to hire me. 
-
-Here is the prompt for the chatbot:
+Facial ID and Document Scanner, UWA coursework project
+A Know Your Customer program that helped the client verify user identity with 99% accuracy using facial recognition.
 `
